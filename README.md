@@ -71,7 +71,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 <!-- Please update value in the {}  -->
 
-<h1 align="center">{Your project name}</h1>
+<h1 align="center">{ToDo App}</h1>
 
 <div align="center">
    Solution for a challenge from  <a href="http://devchallenges.io" target="_blank">Devchallenges.io</a>.
@@ -83,7 +83,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://debo9210-todo-app.netlify.app/">
       Solution
     </a>
     <span> | </span>
@@ -123,7 +123,8 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 - [React](https://reactjs.org/)
 - [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+<!-- - [Tailwind](https://tailwindcss.com/) -->
+- [Material Design](https://google.github.io/material-design-icons/)
 
 ## Features
 
@@ -158,6 +159,7 @@ $ npm start
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+<!-- - Website [your-website.com](https://{your-web-site-link}) -->
+
+- GitHub [debo9210](https://{github.com/your-debo9210})
+- Twitter [@debo9210](https://{twitter.com/your-debo9210})
