@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import {nanoid} from 'nanoid';
 import ToDo from './components/ToDo';
 import Form from './components/Form';
+import Footer from './components/Footer';
 import ActionButton from './components/ActionButton';
 import './App.css';
 import './componentStyles/ToDo.css';
@@ -143,6 +144,8 @@ function App(props) {
               <span className='DelAll'>delete all</span>
               </div>
             </button>)}
+
+            <Footer />
         </div>
       </div>
       </>

@@ -234,3 +234,15 @@ input[type='checkbox'] {
   justify-content: center;
   align-items: center;
 }
+
+.Footer {
+  font-family: 'Montserrat' sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #a9a9a9;
+  text-align: center;
+  margin-top: 200px;
+}
