@@ -4,9 +4,17 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+//temporary todo object
+let DATA = [
+  {id: 'Todo-0', name: 'Eat', completed: true},
+  {id: 'Todo-1', name: 'Sleep', completed: false},
+  {id: 'Todo-2', name: 'Repeat', completed: false}
+];
+
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App tasks={DATA} />
   </React.StrictMode>,
   document.getElementById('root')
 );

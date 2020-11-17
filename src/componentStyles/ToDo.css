@@ -1,0 +1,235 @@
+* {
+  box-sizing: border-box;
+}
+
+.Actions {
+  display: flex;
+  justify-content: space-around;
+  width: 608px;
+  margin: 0 auto;
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.Btn span {
+  font-family: 'Montserrat' sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+  color: #333333;
+}
+
+.Btn {
+  width: 85px;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+  padding: 0 0 8px 0;
+}
+
+.ToggleBtn {
+  border-bottom: 2px solid #2f80ed;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.InputDiv {
+  margin-top: 15px;
+  /* text-align: center; */
+}
+
+.todoInput {
+  width: 476px;
+  height: 56px;
+  border: 1px solid #bdbdbd;
+  border-radius: 12px;
+  margin-right: 9px;
+  font-size: 18px;
+  font-style: normal;
+  font-family: 'Montserrat' sans-serif;
+  color: #333333;
+}
+
+.TodoInputEdit {
+  width: 476px;
+  height: 36px;
+  border: 1px solid #bdbdbd;
+  border-radius: 8px;
+  margin-right: 9px;
+  font-size: 15px;
+  font-style: normal;
+  font-family: 'Montserrat' sans-serif;
+  color: #333333;
+}
+
+input[type='text']:focus {
+  outline: none;
+}
+
+input[type='text']::placeholder {
+  font-family: 'Montserrat' sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  padding-left: 7px;
+  /* identical to box height */
+  /* Gray 3 */
+  color: #828282;
+}
+
+.AddBtn {
+  width: 109px;
+  height: 56px;
+  background: #2f80ed;
+  box-shadow: 0px 2px 6px rgba(127, 177, 243, 0.4);
+  border-radius: 12px;
+  border: none;
+  color: #fff;
+  outline: none;
+  font-family: 'Montserrat' sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  margin-left: 9px;
+  cursor: pointer;
+}
+
+.NumTasks {
+  font-family: 'Raleway' sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 42px;
+  letter-spacing: -0.045em;
+  color: #333333;
+  margin: -5px 0 7px 0;
+  text-transform: lowercase;
+}
+
+.Todos {
+  font-family: 'Montserrat' sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  width: 608px;
+  height: 25px;
+  text-align: left;
+  /* identical to box height */
+  color: #000000;
+  margin: 20px auto;
+}
+
+input[type='checkbox'] {
+  margin-right: 8px;
+  width: 18px;
+  height: 18px;
+}
+
+.todoItems {
+  margin: 0 0 5px -30px;
+  list-style-type: none;
+}
+
+.TodoList {
+  margin: 0 0 15px 0;
+}
+
+.Completed {
+  text-decoration: line-through;
+  font-style: italic;
+  color: #7a7676;
+}
+
+.DelBtn,
+.EditBtn {
+  float: right;
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+.EditBtn {
+  color: #333333;
+}
+
+.LogoDel {
+  width: 24px;
+}
+
+.BtnGroup {
+  margin: 10px 0;
+}
+
+.BtnEdit {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+.matIcon {
+  font-size: 30px;
+}
+
+.TodoCancel {
+  color: tomato;
+}
+
+.TodoEdit {
+  color: green;
+}
+
+.TodoLabel {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Montserrat' sans-serif;
+  color: #828282;
+}
+
+.main {
+  border: 1px solid green;
+}
+
+.wow {
+  border: 2px solid orangered;
+}
+
+.BtnDelAll {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #eb5757;
+  color: #fff;
+  width: 124px;
+  height: 40px;
+  border-radius: 4px;
+  float: right;
+  margin-top: 30px;
+}
+
+.DelOutline {
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.DelAll {
+  width: 57px;
+  height: 15.79px;
+  font-family: 'Montserrat' sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.BtnDel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
